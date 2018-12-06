@@ -84,19 +84,64 @@
        background: red;
        display: in-line block;
    }
-   smalltext{
+   smalltext {
        padding-top: 5px;
        font-size: 16px;
    }
+   .dropbtn {
+       background-color: black;
+       color: white;
+       padding: 10px;
+       font-size: 14px;
+       border: none;
+       width: 200px;
+       border-radius: 6px;
+   }
+   .dropdown {
+       position: relative;
+       display: inline-block;
+   }
+   .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f1f1f1;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover 
+    {background-color: #ddd;}
 
+    .dropdown:hover .dropdown-content 
+    {display: block;}
+
+    .dropdown:hover .dropbtn 
+    {background-color: rgb(134, 28, 28);}
 </style>
-
+<div class="dropdown">
+    <button class="dropbtn">Options</button>
+    <div class="dropdown-content">
+        <a href="#">Full Roster</a>
+        <a href="#">Jr. Tartans Website</a>
+        <a href="#">Practice Schedule</a>
+        <a href="#">Tartan Gear</a>
+        <a href="#">Concessions</a>
+    </div>
+</div>
+    
 <h1 style="color: black; "><u>FOOTBALL SEASON 2018:</u> <em>7 wins, 2 losses</em></h1>
 <h2 style= "color:black;">Logan Linck: Left Tackle #81</h2>
 <h3 style= "color:black">Nolan Linck: Left Guard #80</h3>
 <p style=text-align:center;><a href="#" class= "img.logo"></a><img src="./images/banner.jpg"></a>
 </p>
 <ul>
+    <li>Ballston Spa: Sept. 15th. L</li>
     <li>Schalmont: Sept 22. W</li>
     <li>Ballston Spa 2: Sept 29th. W</li>
     <li>Broadalbin-Perth: Oct 6th. L</li>
