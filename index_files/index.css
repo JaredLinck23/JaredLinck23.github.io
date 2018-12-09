@@ -2,8 +2,10 @@ body {
     background-color: rgb(120,120,120);
     font-family: Helvetica;
 }
-.headerbar {
-    display:block;
+.header bar {
+    display: block;
+    width: 100%;
+    height: 40px;
     color: rgb(134, 28, 28)
 }
 h1,h2,h3{
