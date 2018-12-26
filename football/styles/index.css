@@ -1,14 +1,15 @@
 body {
     background-color: rgb(120,120,120);
-    font-family: Helvetica;
+    font-family: Graduate;
 }
 .headerbar {
     display:block;
     color: rgb(134, 28, 28)
 }
-h1,h2,h3{
+h1,h2,h3,h4 {
     color: black;
     text-align: center;
+    font-family: Graduate;
 }
 h2,h3{
     font-size:30px;
@@ -22,9 +23,10 @@ h4 {
 }
 ul {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     list-style-type: none;
     color: black;
+    font-family: Graduate;
 }
 
 a {
@@ -58,19 +60,19 @@ a.rotate img {
 p {
    text-align: center; 
    background-image: url("./images/scotialogosg.jpeg");
-   font-family: sans-serif;
+   font-family: Graduate;
    font-weight: 300;
    font-size: 30px;
 }
 #clockdiv {
-   font-family: sans-serif;
+   font-family: Graduate;
    color: black;
    font-weight: 100;
    text-align: center;
    font-size: 60px;
 }
 #clockdiv > div{
-   padding: 10px;
+   padding: 15px;
    border-radius: 3px;
    background: silver;
    display: inline-block;
@@ -89,10 +91,11 @@ smalltext {
    text-align: left;
    background-color:rgb(134,28,28);
    color: white;
-   padding: 10px;
+   padding: 15px;
    font-size: 14px;
    border: none;
    width: 3000px;
+   font-family: Graduate;
 }
 .dropdown {
    position: relative;
@@ -105,6 +108,7 @@ smalltext {
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    z-index: 1;
+   font-family: Graduate;
 }
 .dropdown-content a {
     color: black;
